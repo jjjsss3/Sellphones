@@ -1,0 +1,18 @@
+.wrapper {
+   display: flex;
+   padding: 0px 5px;
+   p {
+      padding: 5px 10px;
+      background: var(--light-gray);
+      border-radius: 5px;
+      border: solid 1px #eee;
+   }
+}
+@media only screen and (max-width: 420px) {
+   .wrapper {
+      width: 100%;
+      p {
+         background: var(--light-gray);
+      }
+   }
+}

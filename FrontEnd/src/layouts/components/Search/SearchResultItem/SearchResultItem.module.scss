@@ -1,0 +1,42 @@
+.wrapper {
+   font-family: var(--font-family);
+   align-items: center;
+   padding: 10px 10px;
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+   border-radius: 10px;
+   &:hover {
+      background-color: #f0f0f0;
+   }
+   border-bottom: solid 1px var(--light-gray);
+}
+.thumbnail {
+   width: 57px;
+   height: 57px;
+   object-fit: fill;
+}
+.info {
+   flex: 1;
+   margin-left: 10px;
+}
+.name {
+   font-size: 1.6rem;
+   font-weight: 600;
+   // line-height: 1.5;
+   // color: var(--primary);
+}
+.price,
+.priceDiscount {
+   color: var(--primary);
+}
+.price {
+   font-weight: 500;
+
+   font-size: 1.4rem;
+   text-decoration: line-through;
+}
+.priceDiscount {
+   font-size: 1.6rem;
+   font-weight: 600;
+}

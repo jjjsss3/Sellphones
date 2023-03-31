@@ -1,0 +1,31 @@
+.wrapper {
+   // display: flex;
+   // flex-direction: column;
+   // justify-content: center;
+   width: 100%;
+   height: 100%;
+   padding: 14px 16px;
+   box-shadow: var(--box-shadow-thick);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   .icon {
+      height: 32px;
+      // width: 30px;
+      color: var(--primary);
+   }
+   .cod {
+      width: 100%;
+      font-weight: 600;
+      height: 60px;
+      color: #fff;
+      background: var(--primary);
+   }
+   p {
+      text-align: center;
+   }
+   // .paypal {
+   //    width: 100%;
+   // }
+   // background: #fff;
+}

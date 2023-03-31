@@ -1,0 +1,173 @@
+.wrapper {
+   --search-border-radius: 12px;
+   --search-height: 44px;
+   --search-top-spacer: 10px;
+   --search-button-width: 52px;
+   --search-width: 1050px;
+
+   font-family: var(--font-family);
+   position: sticky;
+   top: 0;
+   width: 100%;
+   height: var(--default-layout-header-height);
+   box-shadow: var(--box-shadow-light);
+   display: flex;
+   justify-content: center;
+   background-color: var(--primary);
+   z-index: 1000;
+
+   .inner {
+      height: 100%;
+      width: var(--default-layout-width);
+      display: flex;
+      align-items: center;
+      width: 100%;
+
+      justify-content: space-between;
+      .logo {
+         height: 55%;
+         width: 25%;
+         img {
+            height: 100%;
+         }
+      }
+      .searchBox {
+         width: 50%;
+      }
+      div[id^='tippy-'] {
+         width: 50%;
+      }
+      .action {
+         color: var(--white);
+         width: 25%;
+         display: flex;
+         justify-content: flex-end;
+         .item {
+            display: flex;
+            align-items: center;
+            border-radius: 10px;
+            color: var(--white);
+            padding: 40px 5px;
+            cursor: pointer;
+            button {
+               padding-right: 3px;
+               color: var(--white);
+               font-size: 2.2rem;
+               cursor: pointer;
+            }
+            p {
+               font-size: 1.2rem;
+            }
+            // &:hover {
+            //    background-color: var(--primary-hover);
+            // }
+         }
+         .cart {
+            .item {
+               .icon {
+                  // z-index: 100;
+               }
+               .amount {
+                  // position: absolute;
+                  // z-index: -1;
+                  // font-weight: 700;
+                  // border: 1px solid #fff;
+                  // transform: translate(50%, -40%);
+                  // // background: seashell;
+                  // color: var(--primary);
+                  // color: #fff;
+                  // vertical-align: middle;
+                  // align-self: center;
+                  // padding: 1px 6px;
+                  // border-radius: 90px;
+               }
+            }
+         }
+         .login {
+            .item {
+               padding: 40px 5px;
+            }
+            // &:hover ~ .account-function {
+            //    display: flex;
+            // }
+         }
+         .account-function {
+            // display: none;
+            p {
+               padding: 5px 0px;
+            }
+            box-shadow: var(--box-shadow-thick);
+            border-radius: 10px;
+            padding: 10px;
+            // display: flex;
+            flex-direction: column;
+            justify-content: center;
+            right: 5px;
+            top: 50px;
+            font-size: 1.4rem;
+            color: var(--primary);
+            background: #fff;
+            position: absolute;
+            cursor: pointer;
+         }
+      }
+   }
+}
+
+@media only screen and (max-width: 420px) {
+   .wrapper {
+      position: fixed;
+      top: 0;
+      .inner {
+         width: 100%;
+         display: flex;
+         .logo {
+            width: 50%;
+            img {
+               width: 100%;
+               object-fit: contain;
+            }
+         }
+         .searchBox {
+            width: 0%;
+            transition: visibility 0s;
+            opacity: 0;
+         }
+         div[id^='tippy-'] {
+            width: 90%;
+            margin: 0 auto;
+         }
+         .action {
+            width: 50%;
+            height: 100%;
+            align-items: center;
+            // justify-content: center;
+            .item {
+               display: none;
+               padding-right: 10px;
+            }
+            .login {
+               .item {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  padding-left: 10px;
+                  &:hover {
+                     background-color: transparent;
+                  }
+               }
+            }
+            .cart {
+               .item {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  &:hover {
+                     background-color: transparent;
+                  }
+               }
+            }
+         }
+      }
+   }
+}
