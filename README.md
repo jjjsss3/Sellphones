@@ -1,6 +1,6 @@
 <!-- # sellphones -->
 #  SELLPHONES STORE WEBSITE
-This is our e-commerce website selling mobile phones using ReactJS and Laravel 9.0.\
+This is our e-commerce website selling mobile phones using <i>ReactJS and Laravel 9.0.</i>\
 We have three actors guests, members and administrators with the shop interfaces and the admin interface\
 <b>Guests</b> have the abilities of: \
     ᛫ View Homepage\
@@ -9,10 +9,10 @@ We have three actors guests, members and administrators with the shop interfaces
     ᛫ View Product Details\
     ᛫ Check Out Orders\
     ᛫ Look Up the Order with Phone, Order Code\
-Members have all abilities of guest and:\
+<b>Members</b> have all abilities of guest and:\
     ᛫ Keep Track of Their Orders\
     ᛫ Have the Opportunity to Get the Discount\
-Administrators have the abilities of:\
+<b>Administrators</b> have the abilities of:\
     ᛫ Manage the Products and Categories\
     ᛫ Manage the Orders\
     ᛫ Manage the Warehouse\
