@@ -1,8 +1,8 @@
 <!-- # sellphones -->
 #  SELLPHONES STORE WEBSITE
 Homepage site
-This is our e-commerce website selling mobile phones using ReactJS and Laravel 9.0.
-We have three actors guests, members and administrators with the shop interfaces and the admin interface
+This is our e-commerce website selling mobile phones using ReactJS and Laravel 9.0.__
+We have three actors guests, members and administrators with the shop interfaces and the admin interface__
 Guests have the abilities of:
 ᛫ View Homepage
 ᛫ Add Products to Cart
