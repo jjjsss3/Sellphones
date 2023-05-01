@@ -1,6 +1,4 @@
-# sellphones
- <h2>
-  SELLPHONES STORE WEBSITE
- </h2>
- <h4>Homepage site</h4>
+<!-- # sellphones -->
+#  SELLPHONES STORE WEBSITE
+Homepage site
 ![alt text](/FrontEnd/public/pictures/1_homepage.png)
