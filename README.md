@@ -1,3 +1,3 @@
 # sellphones
  This is instruction file.
-![alt text](/FrontEnd/pictures/1_homepage.png)
+![alt text](/FrontEnd/public/pictures/1_homepage.png)
