@@ -3,7 +3,7 @@
 Homepage site
 This is our e-commerce website selling mobile phones using ReactJS and Laravel 9.0.
 We have three actors guests, members and administrators with the shop interfaces and the admin interface
-Guests have the abilities of:
+Guests have the abilities of: \n
 ᛫ View Homepage
 ᛫ Add Products to Cart
 ᛫ Sign Up to Become Our Member
